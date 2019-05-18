@@ -17,7 +17,8 @@ public class EmployeeController {
 	@CrossOrigin(origins="http://localhost:4200")
 	@GetMapping(name="/getEmployee")
 	public List<Employee> getEmployees(){
-int i=0;
+
+Sysout.out.println("hello mastan");
 		return employeeService.getEmployee();
 	}
 	
